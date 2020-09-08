@@ -1,5 +1,5 @@
 // Hide Notifications And Disabled Submit Button Function Call
-disableSubmitBtn();
+// disableSubmitBtn();
 hideNotification();
 
 // Generate PIN Function
@@ -12,12 +12,12 @@ function generatePin() {
 }
 
 // Submit Button Disabled Function
-function disableSubmitBtn() {
-    let inputPin = document.getElementById("input-pin-viewer").value;
-    if (inputPin == "") {
-        document.getElementById("btnSubmit").disabled = true;
-    }
-}
+// function disableSubmitBtn() {
+//     let inputPin = document.getElementById("input-pin-viewer").value;
+//     if (inputPin == "") {
+//         document.getElementById("btnSubmit").disabled = true;
+//     }
+// }
 
 // Backspace Button Function
 function btnBackspace() {
